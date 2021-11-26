@@ -1,0 +1,31 @@
+.backimg {
+    background-image: url("laptop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mid {
+    background-color: #fa6c62;
+}
+
+.backimg a {
+    color: #ffffff;
+}
+
+.backimg h1 {
+    color: #ffffff;
+}
+
+.backimg p {
+    color: #d9d7d7;
+}
+
+p a {
+    color: #fa6c62;
+}
+
+@media only screen and (max-width: 600px) {
+    .ser p{ 
+      display: none;
+    }
+  }
